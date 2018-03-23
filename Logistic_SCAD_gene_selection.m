@@ -64,7 +64,7 @@ for i=1:m
         s=0;
         if S(j)>0
             s=1;
-        else S(j)<0
+        elseif S(j)<0
             s=-1;       
         end
         if abs(S(j)) <=lambda 

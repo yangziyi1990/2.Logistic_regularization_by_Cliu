@@ -36,7 +36,7 @@ while iter<maxiter
             elseif S(j) < -lambda
                 beta(j) = (S(j) + lambda)/((1-1/gamma));
             elseif abs(S(j)) <= lambda
-                beta(j,1) = 0;
+                beta(j) = 0;
             end
         else
             beta(j)=S(j);
